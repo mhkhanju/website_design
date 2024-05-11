@@ -1,24 +1,84 @@
-07.05.2024
-1st class->
+css :
+inline e :  <h1 style="color: red; background: green;" >Heading 01</h1>
 
-doctype mane document type ta hobe html format
-w3c=world wide web consortium songstha 
-single ekta page e h1 ekbari use korbo 
-but ekta website e onek h1 use kora jabe
+internal: line er moddhe na,but file er moddhe
 
-pixels.com theke image er copyright free  
+css er cmnt : slash *....*slash
 
-marqu tag : move korbe
+short cut : cntrl + slash
 
-attribute tag er vitor 
 
-block tag:puro line er jayga nie ney
+margin kaj kore clockwise:
+top>right>bottom>left
 
-inlinr tag: pase boste dey
+css auto prefix
 
-single tag
+class ke multiple 
+id unique
 
-double tag 
+id er power besi
+class er power besi tag theke 
+sobchaite important er power besi
 
-2nd class ->
+block er vitor inline dibo 
 
+ctrl+u dile div dekhabe
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class 03</title>
+    <style>
+        /*h1{
+        color : rgb(255, 0, 255) ;
+        background : green ;
+    }
+    p{
+        color: brown;
+        font-size: 24px;
+        border: red 2px dotted;
+    }
+    */
+
+    </style>
+</head>
+<body>
+
+    <h1>Heading 01</h1>
+    <h2>Heading 02</h2>
+    <p>   Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, laborum tenetur libero excepturi illo quidem temporibus magni. Illum molestias temporibus fugit amet unde? Ea culpa, consequuntur ipsa a possimus optio.</p>
+    
+</body>
+
+<!--
+
+    <h1 style="color: red; background: green;" >Heading 01</h1>
+    <p style="border: 3px solid red;">   Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, laborum tenetur libero excepturi illo quidem temporibus magni. Illum molestias temporibus fugit amet unde? Ea culpa, consequuntur ipsa a possimus optio.</p>
+
+
+    syntax of css:
+    selector{
+        property : value ;
+    }
+
+     selector{
+        color : red ;
+        background : green ;
+    }
+
+
+    1.inline
+    2.internal
+    3.external
+-->
+</html>
