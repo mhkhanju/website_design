@@ -2,21 +2,33 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 .container{
     width: 1170px;
+    margin: 0 auto;
 }
-
+ul{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.br{
+    border-right: 0 !important;
+}
+/* all common css end */
 #header{
     background: #eee;
     height: 200px;
     background: #FFFFFF;
 }
-.container{
+.top_bar{
    
     height: 200px;
-    width: 1170px;
-    margin: 0 auto;
+   
+    
 }
 .logo{
     height: 200px;
@@ -87,27 +99,233 @@
     
 }
 
+/* menu part */
 
-/* menu part start */
+#menu{
+   
+    background: #fff;
+    box-shadow: 0 0 5px 0 #d9d9d9;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.main-menu{
+     
+    
+}
+ul li{
+    
+    margin: 2px 0;
+    display: inline-block;
+}
+ul li a{
+    padding: 25px 19px;
+   
+    color: #444;
+    font-size: 16px;
+    font-family: sans-serif;
+    
+    
+   
+}
+.seminars_btn{
+    background: red;
+    color: #fff;
+}
+
+/*banner part start */
+
+#banner{
+  
+    
+    
+}
+
+#banner img{
+    width: 100%;
+    height: auto;
+}
+
+
+/*service part start */
+
+#service{
+    
+    
+}
+
+.service_container{
+    
+    background: #eee;
+    
+}
+
+.service_container .item{
+    
+    width: 25%;
+   
+    float: left;
+    border-right: 1px solid red;
+    display: inline-block;
+    padding: 25px 22px;
+    text-align: center;
+   
+}
+.service_container .item:first-child{
+    border-radius: 5px 0 0 5px;
+}
+.service_container .item:last-child{
+    border-radius: 0 5px 5px 0;
+}
+.service_container .item h3{
+    padding-top: 10px;
+
+}
+.service_container .item:hover{
+    border-bottom: 1px solid #000;
+}
+
+/*service part end */
+
+
+
+
+
+
+
+/* menu part start
+
+overflow: scroll;
+border: 1px solid red;
+span{
+    height: 60px;
+    width: 150px;
+    background: green;
+    display: inline-block;
+}
+
+
 #menu{
     height: 100px;
     background: #fff;
     box-shadow: 0 0 5px 0 #d9d9d9;
+    padding-left: 100px;
 }
 .home{
     color: red;
-    width: 50px;
+    width: 100px;
     float: left;
     height: 100px;
-    border: 1px solid red;
+    
 }
 .home p{
     padding-top: 40px;
 }
 .about{
-    color: red;
-    width: 50px;
+    color: rgb(7, 6, 6);
+    width: 100px;
     float: left;
     height: 100px;
-    border: 1px solid red;
+    
 }
+.about p{
+    padding-top: 40px;
+}
+.courses{
+    color: rgb(17, 16, 16);
+    width: 100px;
+    float: left;
+    height: 100px;
+    
+}
+.courses p{
+    padding-top: 40px;
+}
+.admission{
+    color: rgb(14, 13, 13);
+    width: 100px;
+    float: left;
+    height: 100px;
+    
+}
+.admission p{
+    padding-top: 40px;
+}
+.jobplacement{
+    color: rgb(10, 3, 3);
+    width: 100px;
+    float: left;
+    height: 100px;
+    
+}
+.jobplacement p{
+    padding-top: 40px;
+}
+.freelancing{
+    color: rgb(8, 8, 8);
+    width: 100px;
+    float: left;
+    height: 100px;
+    
+}
+.freelancing p{
+    padding-top: 40px;
+}
+.others{
+    color: rgb(10, 10, 10);
+    width: 100px;
+    float: left;
+    height: 100px;
+}
+    
+.others p{
+    padding-top: 40px;
+}
+.blog{
+    color: rgb(2, 2, 2);
+    width: 100px;
+    float: left;
+    height: 100px;
+    
+}
+.blog p{
+    padding-top: 40px;
+}
+.ctgbranch{
+    color: rgb(10, 1, 1);
+    width: 100px;
+    float: left;
+    height: 100px;
+}
+.ctgbranch p{
+    padding-top: 40px;
+    
+}
+.contact{
+    color: rgb(7, 6, 6);
+    width: 100px;
+    float: left;
+    height: 100px;
+    
+}
+.contact p{
+    padding-top: 40px;
+}
+.seminars{
+    color: #eedede;
+    width: 100px;
+    float: left;
+
+    
+    
+    height: 100px;
+    
+}
+.seminars p{
+    padding-top: 40px;
+    background: red;
+    height: 60%;
+    
+    
+}
+
+*/

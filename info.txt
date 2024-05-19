@@ -1,84 +1,16 @@
-css :
-inline e :  <h1 style="color: red; background: green;" >Heading 01</h1>
+head
+nav
+secion onek thkate pare
+footer ekta thakbe
 
-internal: line er moddhe na,but file er moddhe
+inline tag:pasapasi,hieght weight kaj korena 
+blok tag
 
-css er cmnt : slash *....*slash
+padding : top+bottom  left+right
 
-short cut : cntrl + slash
+last child
 
-
-margin kaj kore clockwise:
-top>right>bottom>left
-
-css auto prefix
-
-class ke multiple 
-id unique
-
-id er power besi
-class er power besi tag theke 
-sobchaite important er power besi
-
-block er vitor inline dibo 
-
-ctrl+u dile div dekhabe
+nth child 
 
 
-
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Class 03</title>
-    <style>
-        /*h1{
-        color : rgb(255, 0, 255) ;
-        background : green ;
-    }
-    p{
-        color: brown;
-        font-size: 24px;
-        border: red 2px dotted;
-    }
-    */
-
-    </style>
-</head>
-<body>
-
-    <h1>Heading 01</h1>
-    <h2>Heading 02</h2>
-    <p>   Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, laborum tenetur libero excepturi illo quidem temporibus magni. Illum molestias temporibus fugit amet unde? Ea culpa, consequuntur ipsa a possimus optio.</p>
-    
-</body>
-
-<!--
-
-    <h1 style="color: red; background: green;" >Heading 01</h1>
-    <p style="border: 3px solid red;">   Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, laborum tenetur libero excepturi illo quidem temporibus magni. Illum molestias temporibus fugit amet unde? Ea culpa, consequuntur ipsa a possimus optio.</p>
-
-
-    syntax of css:
-    selector{
-        property : value ;
-    }
-
-     selector{
-        color : red ;
-        background : green ;
-    }
-
-
-    1.inline
-    2.internal
-    3.external
--->
-</html>
+box sizing : border size 
