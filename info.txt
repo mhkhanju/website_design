@@ -1,16 +1,3 @@
-head
-nav
-secion onek thkate pare
-footer ekta thakbe
-
-inline tag:pasapasi,hieght weight kaj korena 
-blok tag
-
-padding : top+bottom  left+right
-
-last child
-
-nth child 
-
-
-box sizing : border size 
+Annimation:
+prefix
+inline tag
