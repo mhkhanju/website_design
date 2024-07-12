@@ -1,107 +1,91 @@
-.road{
-    /* width: 600px; */
-    height: 800px; 
-    /* border: 1px solid red; */
-    margin: 200px auto 0;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+body{
+    overflow-x: hidden;
     position: relative;
 }
-.road img{
-    width: 100%;
+.container{
+    width: 1170px;
+    margin: 0 auto;
 }
-.bike {
-    height: 800px;
-    width: 600px;
-    /* background: green; */
+
+/* all common css :end */
+
+.main{
+    height: 500px;
+    border: 1px solid red;
+    position: relative; 
+}
+
+.item-1{
+    width: 150px;
+    height: 150px;
+    background: blue;
     position: absolute;
-    left: -50px;
-    top: 2517px;
-    transform: rotateY(360deg);
-    animation-name: move;
-    animation-duration: 2s;
-    animation-delay: 0s;
-    animation-timing-function: linear;
-    animation-iteration-count: 3;
-    animation-direction: alternate;
-    /* animation: move 3s linear 1s 3 alternate; */
+    left: 100px;
+    top: 50px;
+    z-index: 1;
+   /* left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+    
+    /* right: 0;
+    bottom: 0; */
 }
 
-@keyframes move {
-
-    0%{
-        left: 286px;
-    }
-    50%{
-        left: 500px;
-    }
-
-     /* 0%{
-        left: 0;
-    }
- 
-    25%{
-        left: 84%;
-        top: 0;
-        background: red;
-       
-    }
-
-     
-    50%{
-        left: 84%;
-        top: 84%;
-        background: blue;
-        top: 10px;
-       
-    }
-
-    75%{
-        left: 0;
-        top: 84%;
-        transform: rotate(5deg);
-       
-    }
-
-    100%{
-        left: 0;
-        top: 0;
-        border-radius: 50px;
-        background-color: yellow;
-       
-    }  
- */
-
-
-
-    /* from{
-        margin: left 0; 
-        }
-    to {
-        margin-left: 50px;
-    } */
-
-    /* 0%{
-        margin-left: 0;
-    }
-    20%{
-        margin-left: 50px;
-    }
-    40%{
-        margin-top: 20px;
-
-    }
-    60%{
-        background: blue;
-    }
-    80%{
-        border-radius: 50%;
-    }
-    100%{
-        margin-top: 50px;
-    } */
-
+.item-2{
+    width: 150px;
+    height: 180px;
+    background: rgb(0, 255, 42);
+    position: absolute;
+    left: 50px;
+    z-index: 2;
+    /* left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%); */
+    
+    /* right: 0;
+    bottom: 0; */
+}
+.outside{
+    width: 3000px;
+    height: 100px;
+    background: yellow;
+    /* position: absolute;
+    left: 200px;
+    bottom: 0; */
 }
 
+.sticky{
+    height: 50px;
+    width: 1170px;
+    background: rgb(255, 0, 106);
+    position: sticky;
+    left: 0;
+    top: 0;
+    /* right: 0; */
+}
 
-
-
-
+.message{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 30px;
+    background-color: red;
+    text-align: center;
+    line-height: 100px;
+}
